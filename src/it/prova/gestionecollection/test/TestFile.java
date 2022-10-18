@@ -22,7 +22,10 @@ public class TestFile {
 			System.out.println("il file non esiste");
 		}
 
+		
 		// --------------------------------FileWriter---------------
+		
+		
 		try {
 			FileWriter writer = new FileWriter("prova.txt");
 			writer.write("ciao sono Diego");
@@ -33,8 +36,10 @@ public class TestFile {
 			e.printStackTrace();
 		}
 
+		
 		// --------------------------------FileReader---------------
 
+		
 		try {
 			FileReader reader = new FileReader("prova.txt");
 			int data = reader.read();
